@@ -1,3 +1,137 @@
-.index-title {
-  font-size: 100px;
+.dbanner {
+  background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true');
+
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 64px;
+  padding-top: 289px;
+  padding-bottom: 288px;
+  padding-left: 200px;
+
+  h1 {
+    margin-bottom: 16px;
+    font-size: 64px;
+
+  }
+
+  h3 {
+    margin-bottom: 48px;
+  }
+
+  a {
+    background-color: #C0FA73;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+}
+
+
+
+.news {
+  text-align: center;
+  h2{margin-bottom: 32px;}
+}
+
+.newsMain {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.newsPicture {
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 24px;
+
+  li {
+    width: 45%;
+    margin-right: 24px;
+    margin-bottom: 40px;
+  }
+
+  img {
+    margin-bottom: 12px;
+  }
+
+  h5,
+  p {
+    color: #212529;
+
+  }
+
+
+}
+
+.hotSale {
+  text-align: left;
+
+  h2 {
+    font-family: "Montserrat";
+  }
+}
+
+.hotPicture {
+  display: flex;
+  gap: 24px;
+  position: relative;
+  margin-bottom: 64px;
+}
+
+.itag {
+  position: absolute;
+  background-color: #F5FEE7;
+  padding: 8px 12px;
+
+  p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5CA010;
+  }
+
+
+
+}
+
+.bannerMid {
+  background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true');
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+
+  .newsMain {
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 16px;
+
+    span {
+      color: #C0FA73;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+
+  h2 {
+    color: #ffffff;
+    margin-bottom: 32px;
+  }
+
+  p {
+    margin-bottom: 48px;
+  }
+
+  a {
+    background-color: #C0FA73;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
 }

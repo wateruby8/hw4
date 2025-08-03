@@ -337,7 +337,7 @@
         }
 
         .swiper-slide {
-            
+
             margin-right: 16px;
 
             img {
@@ -356,5 +356,37 @@
         }
     }
 
- 
+
+    .dbanner {
+        background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true');
+
+        margin-bottom: 40px;
+        padding-top: 155px;
+        padding-bottom: 155px;
+        padding-left: 0px;
+        padding-left: 24px;
+        padding-right: 24px;
+
+        h1 {
+            margin-bottom: 8px;
+            font-size: 48px;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 32px;
+        }
+
+    }
+.newsMain {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+   .news{
+    h2{
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+   }
+
 }
