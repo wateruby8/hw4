@@ -1,5 +1,3 @@
-
-
 // RWD設計
 @media (max-width:936px) {
     nav {
@@ -227,4 +225,136 @@
 
     }
 
+    .shoesBox {
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .shoesPicture {
+        width: 100%;
+        margin-right: 0;
+
+
+        ul {
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+
+        li {
+            width: 100%;
+            margin-bottom: 24px;
+        }
+
+        .noshow {
+            display: none;
+        }
+
+    }
+
+    .shoesDescribe {
+        width: 100%;
+
+        .tagMain {
+            color: #212529;
+            font-weight: 500;
+            margin-left: 0;
+        }
+
+        .tag {
+            margin-bottom: 12px;
+            font-size: 14px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        h5 {
+            font-size: 16px;
+            margin-bottom: 12px;
+
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .size {
+        margin-bottom: 24px;
+    }
+
+    .click {
+        flex-direction: row-reverse;
+        margin-bottom: 32px;
+
+        button {
+            width: 100%;
+        }
+
+
+
+        .add {
+            border: none;
+            width: 10%;
+
+            i {
+                margin-right: 0;
+            }
+
+            p {
+                display: none;
+            }
+        }
+
+        .book {
+            width: 100%;
+            margin-right: 8px;
+        }
+
+    }
+
+    .moreShoes {
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        h4 {
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+    }
+
+    .moreBox {
+        display: none;
+    }
+
+    .swiper {
+        display: block;
+
+        .swiper-wrapper {
+            width: 100%;
+            ;
+        }
+
+        .swiper-slide {
+            
+            margin-right: 16px;
+
+            img {
+                width: 100%;
+                margin-bottom: 12px;
+            }
+
+            h6 {
+                font-weight: 700;
+            }
+
+            p {
+                font-weight: 500;
+            }
+
+        }
+    }
+
+ 
 }

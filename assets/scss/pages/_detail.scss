@@ -1,0 +1,229 @@
+p {
+    color: #6C757D;
+}
+
+span {
+    font-weight: 700;
+    color: #DEE2E6;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+.shoesBox {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    display: flex;
+}
+
+.shoesPicture {
+    width: 60%;
+    margin-right: 24px;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    li {
+        width: 49%;
+        margin-bottom: 8px;
+    }
+}
+
+.shoesDescribe {
+    width: 40%;
+
+    .tagMain {
+        color: #212529;
+        font-weight: 500;
+        margin-left: 0;
+    }
+
+    .tag {
+        margin-bottom: 12px;
+    }
+}
+
+.moreShoes {
+    margin-top: 48px;
+    margin-bottom: 48px;
+
+    h4 {
+        margin-bottom: 16px;
+    }
+}
+
+.moreBox ul {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+        width: 24%;
+    }
+
+    p {
+        color: #212529;
+    }
+}
+
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    margin-bottom: 16px;
+}
+
+
+.price {
+    margin-bottom: 16px;
+    color: #57A203;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+
+    span {
+        color: #ADB5BD;
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: line-through;
+    }
+}
+
+.size {
+    margin-bottom: 48px;
+
+    p {
+        color: #212529;
+    }
+
+    ul {
+        margin-top: 8px;
+        display: flex;
+        flex-wrap: wrap;
+
+
+        li {
+            padding: 12px 24px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            border: 1px solid #DEE2E6;
+            border-radius: 4px;
+
+            &:hover {
+                border: 1px solid #212529;
+            }
+        }
+
+
+        .sold {
+            border: 1px solid #DEE2E6;
+            color: #DEE2E6;
+        }
+    }
+
+    .note {
+        color: #D74F4F;
+        font-size: 14px;
+    }
+}
+
+.click {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+
+    button {
+        text-align: center;
+        width: 49%;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        border-radius: 4px;
+    }
+
+    .add {
+        color: #212529;
+        background-color: #ffffff;
+
+        p {
+            display: inline;
+        }
+    }
+
+    .book {
+        background-color: #212529;
+        color: #FFFFFF;
+    }
+
+    i {
+        margin-right: 8px;
+    }
+}
+
+.aboutShoes {
+    .aboutTitle {
+        font-weight: 500;
+        color: #212529;
+        margin-bottom: 4px;
+    }
+
+    li {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #DEE2E6;
+    }
+}
+
+.shoesStory {
+    margin-bottom: 20px;
+
+    p {
+        color: #212529;
+        margin-bottom: 12px;
+        letter-spacing: 0.05em;
+    }
+}
+
+.color {
+    p {
+        color: #212529;
+        margin-bottom: 8px;
+    }
+
+    margin-bottom: 32px;
+}
+
+.colorPicture ul {
+    display: flex;
+
+    li {
+        margin-right: 8px;
+    }
+
+    img {
+        width: 64px;
+
+        &:hover {
+            border: 1px solid #212529;
+
+        }
+    }
+
+    p {
+        font-weight: 500;
+        color: #6C757D;
+        letter-spacing: 0.05em;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+}
+.swiper{
+    display: none;
+}
