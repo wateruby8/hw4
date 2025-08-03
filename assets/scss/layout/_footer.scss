@@ -1,0 +1,22 @@
+footer {
+    background-color: #F8F9FA;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    .select {
+        justify-content: space-between;
+        margin-bottom: 24px;
+    }
+}
+
+.copyright {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #DEE2E6;
+    color: #6C757D;
+    font-size: 14px;
+}

@@ -1,0 +1,230 @@
+
+
+// RWD設計
+@media (max-width:936px) {
+    nav {
+        margin-top: 13px;
+        margin-bottom: 13px;
+
+        .selectMeun {
+            display: none;
+        }
+    }
+
+    .web {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+
+    .title {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true");
+        background-size: cover;
+        background-position: 50% 50%;
+        margin-bottom: 0;
+        padding-top: 87px;
+        padding-bottom: 87px;
+        text-align: center;
+
+        h1 {
+            font-size: 28px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .story {
+        max-width: 100%;
+        margin-left: 12px;
+        margin-right: 12px;
+        padding-left: 0;
+        padding-right: 0;
+
+        img {
+            margin-bottom: -16px;
+        }
+
+        h4 {
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+
+        h5 {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-bottom: 12px;
+        }
+    }
+
+    .smallStory {
+        width: 100%;
+        text-align: left;
+        padding: 24px;
+        border-radius: 12px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .part {
+        width: 100%;
+        padding-top: 32px;
+        padding-bottom: 32px;
+
+    }
+
+    .ad {
+        margin-top: 32px;
+
+        h4 {
+            font-size: 20px;
+        }
+
+        button {
+            margin-left: 16px;
+            padding: 8px 16px;
+
+        }
+    }
+
+    footer {
+        padding-top: 32px;
+
+        .select {
+            align-items: start;
+            flex-direction: column;
+        }
+
+        .selectMeun {
+            display: flex;
+            flex-direction: column;
+            margin-left: 0px;
+
+            a {
+                margin-left: 12px;
+                margin-top: 12px;
+                margin-bottom: 12px;
+            }
+        }
+    }
+
+    .content {
+        margin-top: 16px;
+        margin-bottom: 8px;
+        margin-left: 12px;
+        margin-right: 12px;
+
+        span {
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+
+        h3 {
+            margin-top: 21.5px;
+            margin-bottom: 21.5px;
+            font-size: 24px;
+        }
+    }
+
+    .sideMenu {
+        display: none;
+    }
+
+    .shoesList {
+        width: 100%;
+    }
+
+    .shoes {
+
+        li {
+            width: 48%;
+            margin-bottom: 24px;
+
+            img {
+                margin-bottom: 8px;
+            }
+        }
+
+
+    }
+
+    .favorite {
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        padding-left: 12px;
+        padding-right: 12px;
+
+        h3 {
+            font-size: 24px;
+            margin-left: 8px;
+        }
+
+
+        .topic {
+            margin-bottom: 25.5px;
+        }
+
+        .icon {
+            width: 32px;
+            height: 32px;
+
+            i {
+                left: 25%;
+                top: 14%;
+            }
+        }
+
+        button {
+            margin-top: 24px;
+        }
+
+    }
+
+    .openTime {
+        align-items: center;
+        margin-top: 24px;
+    }
+
+    .openText {
+        flex-direction: column;
+    }
+
+    .fshoesList li {
+        padding-top: 24px;
+
+        .shoesDetail {
+            width: 100%;
+            font-family: "Montserrat";
+
+            h5 {
+                color: #212529;
+                font-size: 16px;
+
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            span {
+                color: #6C757D;
+                margin-right: 12px;
+                font-family: "Noto Sans TC";
+                font-weight: 400;
+            }
+
+            .price {
+                text-align: left;
+            }
+
+
+        }
+
+    }
+
+}

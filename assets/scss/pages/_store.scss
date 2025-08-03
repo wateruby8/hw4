@@ -1,0 +1,103 @@
+
+// store
+.content {
+    margin-top: 32px;
+    margin-bottom: 16px;
+
+    .tag {
+        color: #6C757D;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    span {
+        margin-left: 12px;
+        margin-right: 12px;
+        color: #DEE2E6;
+    }
+
+    h3 {
+        color: #212529;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+}
+
+.shop {
+    display: flex;
+}
+
+.sideMenu {
+    width: 15%;
+    margin-right: 24px;
+
+    li {
+        margin-bottom: 16px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    a:hover {
+        color: #57A203;
+
+    }
+
+}
+
+.shoesList {
+    width: 85%;
+}
+
+.shoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    li {
+        width: 32%;
+        margin-bottom: 48px;
+
+        img {
+            margin-bottom: 12px;
+
+            &:hover {
+                border: 1px solid #212529;
+            }
+        }
+    }
+
+    h6 {
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 4px;
+    }
+
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+
+    a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+        &:hover {
+            color: #6C757D;
+        }
+    }
+}
+
+.pagebox {
+    display: flex;
+    margin-left: 12px;
+    margin-right: 12px;
+
+    a:hover {
+        background-color: #C0FA73;
+    }
+}

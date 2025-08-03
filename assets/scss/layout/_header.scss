@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+}
+
+.selectMeun {
+    margin-left: 8px;
+
+    a {
+        margin-left: 40px;
+
+        &:hover {
+            border: 1px solid #6C757D;
+            padding: 12px 24px;
+            border-radius: 4px;
+        }
+    }
+}
