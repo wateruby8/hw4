@@ -11,7 +11,6 @@
   h1 {
     margin-bottom: 16px;
     font-size: 64px;
-
   }
 
   h3 {
@@ -24,6 +23,9 @@
     border-radius: 4px;
     font-weight: 500;
     line-height: 1.5;
+    &:hover{
+      color: #477A11;
+    }
   }
 }
 
@@ -31,7 +33,10 @@
 
 .news {
   text-align: center;
-  h2{margin-bottom: 32px;}
+
+  h2 {
+    margin-bottom: 32px;
+  }
 }
 
 .newsMain {
@@ -54,6 +59,9 @@
 
   img {
     margin-bottom: 12px;
+     &:hover{
+     opacity:0.8;
+    }
   }
 
   h5,
@@ -78,6 +86,9 @@
   gap: 24px;
   position: relative;
   margin-bottom: 64px;
+  img:hover{
+    border: 1px solid #212529;
+  }
 }
 
 .itag {
@@ -90,9 +101,6 @@
     font-weight: 500;
     color: #5CA010;
   }
-
-
-
 }
 
 .bannerMid {
@@ -111,10 +119,17 @@
     margin-bottom: 16px;
 
     span {
+      font-size: 40px;
       color: #C0FA73;
       padding-left: 24px;
       padding-right: 24px;
     }
+  }
+
+  .bannerSub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   h2 {
@@ -123,6 +138,7 @@
   }
 
   p {
+    font-size: 20px;
     margin-bottom: 48px;
   }
 
@@ -132,6 +148,107 @@
     border-radius: 4px;
     font-weight: 500;
     line-height: 1.5;
+    &:hover{
+      color: #477A11;
+    }
   }
 
+}
+
+.typeSelect {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.typeSelectList {
+  display: flex;
+  gap: 24px;
+
+  .typeBox {
+    position: relative;
+
+    img {
+      filter: brightness(60%)
+    }
+
+    &:hover{
+      h3{
+        color: #C0FA73;
+      }
+    }
+  }
+
+  .tTag {
+    position: absolute;
+    z-index: 1;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    h3 {
+      font-size: 24px;
+      white-space: nowrap;
+      margin-bottom: 8px;
+    }
+
+    h5 {
+      font-size: 20px;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+  }
+
+}
+
+.suggestion {
+  margin-top: 64px;
+  margin-bottom: 64px;
+
+  img {
+    width: 100%;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    &:hover{
+     opacity:0.8;
+    }
+  }
+}
+
+.suggestionBlock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block3 {
+  width: calc((100% - 16px) / 3);
+}
+
+.suggestionBlock1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.small {
+  display: flex;
+
+  img {
+    width: 48%;
+  }
+}
+
+.suggestionBlock2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  img {
+    width: 46%;
+  }
+}
+
+.suggestionBlock3 {
+  display: flex;
+  flex-direction: column;
 }

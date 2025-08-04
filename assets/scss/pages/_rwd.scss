@@ -14,7 +14,6 @@
         padding-right: 12px;
     }
 
-
     .title {
         background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true");
         background-size: cover;
@@ -72,7 +71,6 @@
         width: 100%;
         padding-top: 32px;
         padding-bottom: 32px;
-
     }
 
     .ad {
@@ -85,7 +83,6 @@
         button {
             margin-left: 16px;
             padding: 8px 16px;
-
         }
     }
 
@@ -137,7 +134,6 @@
     }
 
     .shoes {
-
         li {
             width: 48%;
             margin-bottom: 24px;
@@ -146,8 +142,6 @@
                 margin-bottom: 8px;
             }
         }
-
-
     }
 
     .favorite {
@@ -161,7 +155,6 @@
             font-size: 24px;
             margin-left: 8px;
         }
-
 
         .topic {
             margin-bottom: 25.5px;
@@ -180,7 +173,6 @@
         button {
             margin-top: 24px;
         }
-
     }
 
     .openTime {
@@ -202,7 +194,6 @@
             h5 {
                 color: #212529;
                 font-size: 16px;
-
             }
 
             p {
@@ -219,10 +210,7 @@
             .price {
                 text-align: left;
             }
-
-
         }
-
     }
 
     .shoesBox {
@@ -234,7 +222,6 @@
     .shoesPicture {
         width: 100%;
         margin-right: 0;
-
 
         ul {
             flex-direction: row;
@@ -249,7 +236,6 @@
         .noshow {
             display: none;
         }
-
     }
 
     .shoesDescribe {
@@ -292,8 +278,6 @@
             width: 100%;
         }
 
-
-
         .add {
             border: none;
             width: 10%;
@@ -333,12 +317,9 @@
 
         .swiper-wrapper {
             width: 100%;
-            ;
         }
 
         .swiper-slide {
-
-            margin-right: 16px;
 
             img {
                 width: 100%;
@@ -353,19 +334,21 @@
                 font-weight: 500;
             }
 
+            .itag p {
+                padding: 8px 12px;
+                font-size: 14px;
+            }
+
         }
     }
 
-
+    // 首頁
     .dbanner {
         background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true');
-
+        background-size: cover;
+        background-position: 50% 50%;
         margin-bottom: 40px;
-        padding-top: 155px;
-        padding-bottom: 155px;
-        padding-left: 0px;
-        padding-left: 24px;
-        padding-right: 24px;
+        padding: 155px 24px;
 
         h1 {
             margin-bottom: 8px;
@@ -378,15 +361,138 @@
         }
 
     }
-.newsMain {
-  font-size: 32px;
-  margin-bottom: 8px;
-}
-   .news{
-    h2{
-        font-size: 24px;
-        margin-bottom: 24px;
-    }
-   }
 
+
+    .newsMain {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    .news {
+        h2 {
+            font-size: 24px;
+            margin-bottom: 24px;
+        }
+    }
+
+
+    .newsPicture {
+        margin-bottom: 0;
+
+        li {
+            margin-right: 12px;
+            margin-bottom: 24px;
+        }
+
+        img {
+            margin-bottom: 8px;
+        }
+
+        h5,
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .hotPicture {
+        display: none;
+    }
+
+    .bannerMid {
+        background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true');
+        background-size: cover;
+        background-position: 50% 50%;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        text-align: center;
+
+        .newsMain {
+            font-size: 32px;
+
+            span {
+                font-size: 28px;
+                color: #C0FA73;
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 24px;
+        }
+
+        p {
+            margin-bottom: 32px;
+            font-size: 16px;
+        }
+
+        a {
+
+            display: inline-block;
+            background-color: #C0FA73;
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-weight: 500;
+            line-height: 1.5;
+            margin-top: 32px;
+        }
+    }
+
+    .bannerSub {
+        flex-direction: column;
+
+        p {
+            margin-bottom: 4px;
+        }
+
+        .noshow {
+            display: none;
+        }
+    }
+
+    .typeSelect {
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        h2 {
+            font-size: 24px;
+        }
+    }
+
+    .typeSelectList {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+
+        li {
+            width: 48%;
+        }
+
+        .tTag {
+            h3 {
+                font-size: 16px;
+            }
+
+            h5 {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .suggestion {
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        h2 {
+            font-size: 24px;
+        }
+    }
+
+    .suggestionBlock {
+        display: none;
+    }
 }
