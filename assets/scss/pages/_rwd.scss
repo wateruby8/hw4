@@ -495,4 +495,36 @@
     .suggestionBlock {
         display: none;
     }
+
+    .selectMeunIndex {
+        display: block;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-weight: 500;
+
+        .indexList {
+            width: 50%;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            background-color: #E8FEC5;
+
+            &:hover {
+                border: 1px solid #6C757D;
+                 border-radius: 4px;
+            }
+        }
+
+        .indexStory {
+            width: 50%;
+            background-color: #F5FEE7;
+            padding-top: 12px;
+            padding-bottom: 12px;
+
+            &:hover {
+                border: 1px solid #6C757D;
+                border-radius: 4px;
+            }
+        }
+    }
 }
