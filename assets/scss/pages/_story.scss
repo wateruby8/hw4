@@ -62,18 +62,28 @@
 
     .more a {
         color: #57A203;
-        display: block;
-        margin-top: 8px;
-        margin-bottom: 8px;
+
 
         &:hover {
             color: #477A11;
         }
 
-        span {
+        .storyMore {
+            color: #57A203;
             border-bottom: 1px solid #57A203;
             margin-left: 8px;
             margin-bottom: 4px;
+
+            &:hover {
+                color: #477A11;
+            }
         }
+
+
+        display: block;
+        margin-top: 8px;
+        margin-bottom: 8px;
+
+
     }
 }
